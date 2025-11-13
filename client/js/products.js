@@ -19,7 +19,7 @@ const productos = [
     productName: "Cazadora X-Ray",
     price: 300,
     quanty: 1,
-    img: "../media/capturas/armor3.png",
+    img: "../media/Capturas/armor3.png",
     category: "skin"
     },
 
@@ -27,7 +27,7 @@ const productos = [
     productName: "Explorador Alienígena",
     price: 260,
     quanty: 1,
-    img: "../media/capturas/armor4.png",
+    img: "../media/Capturas/armor4.png",
     category: "skin"
     },
 
@@ -35,7 +35,7 @@ const productos = [
     productName: "Guerrero Cibernético",
     price: 275,
     quanty: 1,
-    img: "../media/capturas/armor5.png",
+    img: "../media/Capturas/armor5.png",
     category: "skin"
     },
 
@@ -43,7 +43,7 @@ const productos = [
     productName: "Cyra Dementora",
     price: 290,
     quanty: 1,
-    img: "../media/capturas/armor6.png",
+    img: "../media/Capturas/armor6.png",
     category: "skin"
     },
     
@@ -52,7 +52,7 @@ const productos = [
     productName: "Ancient Stone Bricks",
     price: 150,
     quanty: 1,
-    img: "../media/capturas/textura1.png",
+    img: "../media/Capturas/textura1.png",
     category: "textura"
     },
     
@@ -61,7 +61,7 @@ const productos = [
     productName: "Classic Terracota Wall",
     price: 150,
     quanty: 1,
-    img: "../media/capturas/textura2.png",
+    img: "../media/Capturas/textura2.png",
     category: "textura"
     },
     
@@ -70,7 +70,7 @@ const productos = [
     productName: "Sci-Fi Hull Plating",
     price: 180,
     quanty: 1,
-    img: "../media/capturas/textura3.png",
+    img: "../media/Capturas/textura3.png",
     category: "textura"
     }
     ,
@@ -80,7 +80,7 @@ const productos = [
     productName: "Cyberpunk neon",
     price: 180,
     quanty: 1,
-    img: "../media/capturas/textura4.png",
+    img: "../media/Capturas/textura4.png",
     category: "textura"
     }
     ,
@@ -90,7 +90,7 @@ const productos = [
     productName: "Plating",
     price: 180,
     quanty: 1,
-    img: "../media/capturas/textura5.png",
+    img: "../media/Capturas/textura5.png",
     category: "textura"
     }
     ,
@@ -100,7 +100,7 @@ const productos = [
     productName: "Grungy industrial",
     price: 180,
     quanty: 1,
-    img: "../media/capturas/textura6.png",
+    img: "../media/Capturas/textura6.png",
     category: "textura"
     }
     ,
@@ -110,7 +110,7 @@ const productos = [
     productName: "Alienígena",
     price: 180,
     quanty: 1,
-    img: "../media/capturas/textura7.png",
+    img: "../media/Capturas/textura7.png",
     category: "textura"
     }
 ]
