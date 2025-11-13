@@ -11,7 +11,7 @@ const productos = [
     productName: "Robot C-Ágil",
     price: 255,
     quanty: 1,
-    img: "./media/capturas/armor2.png",
+    img: "../media/capturas/armor2.png",
     category: "skin"
     },
 
