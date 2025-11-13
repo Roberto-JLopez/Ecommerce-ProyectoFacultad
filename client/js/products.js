@@ -3,7 +3,7 @@ const productos = [
     productName: "Soldado de Elite",
     price: 300,
     quanty: 1,
-    img: "./media/capturas/armor1.png",
+    img: "media/capturas/armor1.png",
     category: "skin"
     },
 
