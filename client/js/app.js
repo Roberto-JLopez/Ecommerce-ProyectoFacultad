@@ -37,6 +37,10 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(err => {
       console.error("Error al verificar sesión:", err);
       // CORREGIDO: Añadir /media/ al enlace de fallback
-      authContainer.innerHTML = '<a href="/media/login.html">Iniciar Sesión</a>';
-    });
-});
+      authContainer.innerHTML = `
+          <a href="/media/login.html">Iniciar Sesión</a>
+          |
+          <a href="/media/register.html">Registrarse</a>
+        `;
+    })
+  });
