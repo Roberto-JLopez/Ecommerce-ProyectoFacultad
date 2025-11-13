@@ -173,3 +173,5 @@ app.post("/create_preference", isAuthenticated, async (req, res) => {
 app.listen(8080, () => {
   console.log("Servidor corriendo en http://localhost:8080 🚀");
 });
+
+// Forzando un nuevo despliegue para actualizar variables
