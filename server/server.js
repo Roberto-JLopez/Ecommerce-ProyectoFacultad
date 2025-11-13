@@ -3,15 +3,17 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 const { MercadoPagoConfig, Preference } = require("mercadopago");
-
+require('dotenv').config();
 // --- NUEVO: Importaciones para Autenticación y Base de Datos ---
 const mongoose = require("mongoose");
 const session = require("express-session"); // Para manejar sesiones de usuario
 const bcrypt = require("bcryptjs"); // Para comparar contraseñas en el login
 const User = require("./models/User"); // Importamos nuestro modelo de Usuario
+const MONGO_URI = process.env.MONGO_URI;
+
 
 // --- NUEVO: Conexión a MongoDB ---
-mongoose.connect("mongodb://localhost:27017/tuEcommerceDB")
+mongoose.connect(MONGO_URI)
   .then(() => console.log("Conectado a MongoDB ✅"))
   .catch(err => console.error("Error al conectar a MongoDB ❌", err));
 
