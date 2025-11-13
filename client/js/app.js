@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
           fetch("http://localhost:8080/api/logout", { method: "POST" })
             .then(res => res.json())
             .then(() => {
-              // CORREGIDO: Añadir /media/
-              window.location.href = "/media/login.html";
+              
+              window.location.href = "/login.html";
             });
         });
 
@@ -28,15 +28,15 @@ document.addEventListener("DOMContentLoaded", () => {
         // Usuario NO está logueado
         // CORREGIDO: Añadir /media/ a los enlaces
         authContainer.innerHTML = `
-          <a href="/media/login.html">Iniciar Sesión</a>
+          <a href="/login.html">Iniciar Sesión</a>
           |
-          <a href="/media/register.html">Registrarse</a>
+          <a href="/register.html">Registrarse</a>
         `;
       }
     })
     .catch(err => {
       console.error("Error al verificar sesión:", err);
       // CORREGIDO: Añadir /media/ al enlace de fallback
-      authContainer.innerHTML = '<a href="/media/login.html">Iniciar Sesión</a>';
+      authContainer.innerHTML = '<a href="/login.html">Iniciar Sesión</a>';
     });
 });
