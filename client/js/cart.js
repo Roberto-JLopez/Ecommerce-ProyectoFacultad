@@ -117,7 +117,7 @@ const displayCart = () => {
         };
 
         // Fetch para crear la preferencia (con chequeo de login)
-        fetch("http://localhost:8080/create_preference", {
+        fetch("/create_preference", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
