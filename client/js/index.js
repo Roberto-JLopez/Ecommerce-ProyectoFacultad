@@ -24,7 +24,7 @@ function renderProductos(productosAMostrar) {
         // a este 'div' sin necesidad de una clase específica.
 
         content.innerHTML = `
-        <img src="${producto.img}">
+        <img src="../Capturas/${producto.img}">
         <h3>${producto.productName}</h3>
         <p class="price">${producto.price} $</p>
         `;
