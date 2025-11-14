@@ -149,9 +149,9 @@ app.post("/create_preference", isAuthenticated, async (req, res) => {
           },
         ],
         back_urls: {
-          success: "http://localhost:8080/feedback", // Deberías crear esta página
-          failure: "http://localhost:8080/feedback",
-          pending: "http://localhost:8080/feedback",
+          success: "https://ecommerce-proyecto-facultad.vercel.app/", // Deberías crear esta página
+          failure: "https://ecommerce-proyecto-facultad.vercel.app/",
+          pending: "https://ecommerce-proyecto-facultad.vercel.app/",
         },
         payer: {
           email: req.session.userEmail // Asociamos el pago al email del usuario
